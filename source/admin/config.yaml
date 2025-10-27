@@ -1,6 +1,6 @@
 backend:
   name: git-gateway
-  branch: main  # 或者 master，根据你的仓库默认分支
+  branch: master  # 或者 master，根据你的仓库默认分支
 
 media_folder: "source/images/uploads"    # 上传文件保存位置
 public_folder: "/images/uploads"
