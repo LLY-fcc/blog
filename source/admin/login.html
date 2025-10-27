@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Login</title>
+  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+</head>
+<body>
+  <h1>Login</h1>
+
+  <script>
+    const identity = window.netlifyIdentity;
+
+    identity.on('init', user => {
+      if (!user) {
+        identity.open(); // 弹出登录窗口
+      } else {
+        window.location.href = '/admin/index.html';
+      }
+    });
+
+    identity.on('login', user => {
+      window.location.href = '/admin/index.html';
+    });
+
+    identity.on('logout', () => {
+      window.location.href = '/';
+    });
+
+    identity.init();
+  </script>
+</body>
+</html>
