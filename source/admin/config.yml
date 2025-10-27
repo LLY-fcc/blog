@@ -6,14 +6,12 @@ media_folder: "source/images/uploads"    # 上传文件保存位置
 public_folder: "/images/uploads"
 
 collections:
-  - name: "posts"
-    label: "Blog Posts"
-    folder: "source/_posts"
+  - name: "blog"
+    label: "Blog"
+    folder: "_posts"
     create: true
-    slug: "{{slug}}"
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Date", name: "date", widget: "datetime" }
-      - { label: "Tags", name: "tags", widget: "list", default: [] }
-      - { label: "Categories", name: "categories", widget: "list", default: [] }
       - { label: "Body", name: "body", widget: "markdown" }
