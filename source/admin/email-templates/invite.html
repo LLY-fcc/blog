@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>邀请访问 CMS</title>
+  </head>
+  <body>
+    <p>你好 {{user_email}},</p>
+
+    <p>你已被邀请访问我们的内容管理系统 (CMS)。</p>
+
+    <p>请点击以下链接设置密码并完成注册：</p>
+
+    <p>
+      <a href="https://your-site.netlify.app/admin/login.html#invite_token={{token}}">
+        设置密码并访问 CMS
+      </a>
+    </p>
+
+    <p>如果无法点击，请将链接复制到浏览器地址栏访问。</p>
+
+    <p>感谢！</p>
+  </body>
+</html>

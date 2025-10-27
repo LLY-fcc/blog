@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>确认邮箱地址</title>
+  </head>
+  <body>
+    <p>你好 {{user_email}},</p>
+
+    <p>请点击以下链接确认你的邮箱地址：</p>
+
+    <p>
+      <a href="https://your-site.netlify.app/admin/login.html#confirmation_token={{token}}">
+        确认邮箱并访问 CMS
+      </a>
+    </p>
+
+    <p>如果你没有请求此操作，请忽略此邮件。</p>
+
+    <p>感谢！</p>
+  </body>
+</html>
