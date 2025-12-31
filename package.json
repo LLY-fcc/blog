@@ -3,10 +3,11 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "build": "hexo generate",
-    "clean": "hexo clean",
-    "deploy": "hexo deploy",
-    "server": "hexo server"
+    "sync": "bash scripts/sync-posts.sh",
+    "build": "pnpm sync && hexo generate",
+    "clean": "pnpm sync && hexo clean",
+    "deploy": "pnpm sync && hexo deploy",
+    "server": "pnpm sync && hexo server"
   },
   "hexo": {
     "version": "8.0.0"
