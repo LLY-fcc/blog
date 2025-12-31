@@ -38,9 +38,9 @@ importers:
       hexo-theme-fluid:
         specifier: ^1.9.8
         version: 1.9.8(nunjucks@3.2.4(chokidar@3.6.0))
-      hexo-theme-landscape:
-        specifier: ^1.0.0
-        version: 1.1.0
+      hexo-theme-fluid-fork:
+        specifier: ^1.9.9
+        version: 1.9.9(nunjucks@3.2.4(chokidar@3.6.0))
 
 packages:
 
@@ -444,14 +444,17 @@ packages:
     resolution: {integrity: sha512-u4s0ty9Aew6jV+a9oMrXBwhrRpUQ0U8PWM/88a5aHgDru58VY81mVrxOFxs788NAsWQ8OvsJtF5m7mnXoRnSIA==}
     engines: {node: '>=12.13.0'}
 
+  hexo-theme-fluid-fork@1.9.9:
+    resolution: {integrity: sha512-ZlubkA3O6Iyp5GT6Fio9SDTyjfIGxdo/ldDYCKl9vDav1Mz9njpCbNGjN//D8JKG/4qHIfEx4mETp1ToELVcyA==}
+    engines: {node: '>=8.10.0'}
+    peerDependencies:
+      nunjucks: ^3.0.0
+
   hexo-theme-fluid@1.9.8:
     resolution: {integrity: sha512-+HUx8xrBA2WWgJYMhlCy5L69LLgAL8PjsLIyIbh81Ftc0J71V69K04Zqv270VjRSs38rx9djeQPrgidtMdnh3g==}
     engines: {node: '>=8.10.0'}
     peerDependencies:
       nunjucks: ^3.0.0
-
-  hexo-theme-landscape@1.1.0:
-    resolution: {integrity: sha512-nszjixBEiEDZjf7glAGbHg0nKGHZdUDwzFVVdRDeu4FeHfGcY5CZNl9sF4vSligjnD8IwFXpDfx5E+GRmNKvWg==}
 
   hexo-util@3.3.0:
     resolution: {integrity: sha512-YvGngXijE2muEh5L/VI4Fmjqb+/yAkmY+VuyhWVoRwQu1X7bmWodsfYRXX7CUYhi5LqsvH8FAe/yBW1+f6ZX4Q==}
@@ -1361,11 +1364,13 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  hexo-theme-fluid@1.9.8(nunjucks@3.2.4(chokidar@3.6.0)):
+  hexo-theme-fluid-fork@1.9.9(nunjucks@3.2.4(chokidar@3.6.0)):
     dependencies:
       nunjucks: 3.2.4(chokidar@3.6.0)
 
-  hexo-theme-landscape@1.1.0: {}
+  hexo-theme-fluid@1.9.8(nunjucks@3.2.4(chokidar@3.6.0)):
+    dependencies:
+      nunjucks: 3.2.4(chokidar@3.6.0)
 
   hexo-util@3.3.0:
     dependencies:

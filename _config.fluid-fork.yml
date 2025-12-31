@@ -3,7 +3,7 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: liang's blog
+title: Liang's Blog
 subtitle: ''
 description: ''
 keywords:
@@ -98,9 +98,25 @@ ignore:
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
 # theme: landscape
-theme: fluid-fork
+theme: fluid
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: ''
+
+navbar:
+  blog_title: Liang's Blog
+index:
+  slogan:
+    enable: true
+    text:  "简单 · 自由 · 高效"
+post:
+  mermaid:
+    enable: true
+  math:
+    enable: true
+fun_features:
+  typing:
+    enable: true
+    cursorChar: "·" # 光标字符
