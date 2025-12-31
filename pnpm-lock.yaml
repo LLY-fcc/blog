@@ -39,8 +39,8 @@ importers:
         specifier: ^1.9.8
         version: 1.9.8(nunjucks@3.2.4(chokidar@3.6.0))
       hexo-theme-fluid-fork:
-        specifier: ^1.9.9
-        version: 1.9.9(nunjucks@3.2.4(chokidar@3.6.0))
+        specifier: ^1.9.10
+        version: 1.9.10(nunjucks@3.2.4(chokidar@3.6.0))
 
 packages:
 
@@ -444,8 +444,8 @@ packages:
     resolution: {integrity: sha512-u4s0ty9Aew6jV+a9oMrXBwhrRpUQ0U8PWM/88a5aHgDru58VY81mVrxOFxs788NAsWQ8OvsJtF5m7mnXoRnSIA==}
     engines: {node: '>=12.13.0'}
 
-  hexo-theme-fluid-fork@1.9.9:
-    resolution: {integrity: sha512-ZlubkA3O6Iyp5GT6Fio9SDTyjfIGxdo/ldDYCKl9vDav1Mz9njpCbNGjN//D8JKG/4qHIfEx4mETp1ToELVcyA==}
+  hexo-theme-fluid-fork@1.9.10:
+    resolution: {integrity: sha512-O/zDsMeQe49di9D14QE8yCcrIK1O0899BUYPBEjbVAaHQkB+eaQ+ZsTSygBK7tdxGD1x1s1EtMBm5Jbwm7NsCg==}
     engines: {node: '>=8.10.0'}
     peerDependencies:
       nunjucks: ^3.0.0
@@ -1364,7 +1364,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  hexo-theme-fluid-fork@1.9.9(nunjucks@3.2.4(chokidar@3.6.0)):
+  hexo-theme-fluid-fork@1.9.10(nunjucks@3.2.4(chokidar@3.6.0)):
     dependencies:
       nunjucks: 3.2.4(chokidar@3.6.0)
 
