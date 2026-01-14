@@ -1,7 +1,7 @@
-# TextInput
-## 实现自动大小写转换功能
+# 实现自动大小写转换功能
 
 >react-native: 0.81.5
+>expo: 54.0.31
 >android: 15
 >device: Galaxy A16 5G
 >ui: one ui 7.0
