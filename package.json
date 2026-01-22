@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "sync": "bash scripts/sync-posts.sh",
+    "sync": "node utils/sync-posts.js",
     "build": "pnpm sync && hexo generate",
     "clean": "pnpm sync && hexo clean",
     "deploy": "pnpm sync && hexo deploy",
